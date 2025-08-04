@@ -44,7 +44,7 @@ def main():
 
             for bullet in shots:
                 if astr.collides(bullet):
-                    astr.kill()
+                    astr.split()
                     bullet.kill()
 
 
